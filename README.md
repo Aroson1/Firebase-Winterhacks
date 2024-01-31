@@ -12,8 +12,8 @@ Firebase part of the code can be found at:
 
 ## Table of Contents
 - [System Requirements](#system-requirements)
-- [Application Structure](#application-structure)
 - [Release APK](#release-apk)
+- [Application Demo](#application-demo)
 
 ## System Requirements
 
@@ -22,21 +22,6 @@ Before getting started, make sure you have the following software installed:
 - Dart SDK Version 2.18.0 or greater
 - Flutter SDK Version 3.3.0 or greater
 
-## Application Structure
-
-After a successful build, the application should look like this:
-
-<div style="display: flex;">
-    <div style="flex: 50%;">
-        <h2>Demo Login</h2>
-        <img src="assets/images/Demo_Login.png" alt="Demo Login" />
-    </div>
-    <div style="flex: 50%;">
-        <h2>Demo Signup</h2>
-        <img src="assets/images/Demo_Signup.png" alt="Demo Signup" />
-    </div>
-</div>
-
 ## Release APK
 A production reddy version of the APK is avilable for installing and using on Android, at:
 ```
@@ -44,4 +29,22 @@ A production reddy version of the APK is avilable for installing and using on An
 ├── APK                                
     ├── app-release.apk
 ```
+## Application Demo
+
+After a successful build, the application should look like this:
+
+<table style="display: flex; ">
+    <td style="flex: 50%;">
+        <h2>Demo Login</h2>
+        <img src="assets/images/Demo_Login.png" alt="Demo Login" />
+    </td>
+    <td style="flex: 50%;">
+        <h2>Demo Signup</h2>
+        <img src="assets/images/Demo_Signup.png" alt="Demo Signup" />
+    </td>
+</table>
+
+### Demo Video
+To see a demo of the application in action, you can watch the [demo video](assets/demo_video.mp4) located in the assets folder.
+
 
