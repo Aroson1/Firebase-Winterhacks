@@ -6,7 +6,6 @@ import 'package:flutter/services.dart';
 import 'firebase_options.dart';
 import 'widgets/Login_Page/Login_background.dart';
 import 'widgets/Signup_Page/Signup_background.dart';
-import 'widgets/homePage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

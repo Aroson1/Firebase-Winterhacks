@@ -3,7 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:form_validator/form_validator.dart';
 
 import '../../core/utils/image_constant.dart';
-import '../firebase_auth.dart';
+import '../../core/firebase_auth.dart';
 
 class LoginUI extends StatefulWidget {
   const LoginUI({super.key});
@@ -39,8 +39,6 @@ class _LoginUIState extends State<LoginUI> {
       FirebaseAuthenticator()
           .login(context, _usernameController, _passwordController);
     }
-
-    print("SIGN_IN_BUTTON");
   }
 
   /// Callback function to handle the press event of the sign-up button.
@@ -267,7 +265,8 @@ class _LoginUIState extends State<LoginUI> {
                     children: [
                       // Google Login
                       InkWell(
-                        onTap: () {},
+                        onTap: () =>
+                            FirebaseAuthenticator().googleAuth(context),
                         child: SizedBox(
                           width: 58.10,
                           height: 44,
@@ -331,7 +330,11 @@ class _LoginUIState extends State<LoginUI> {
                       ),
                       // Facebook Login
                       InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          setState(() {
+                            _headingText = "Facebook? Really? ";
+                          });
+                        },
                         child: SizedBox(
                           width: 58.10,
                           height: 44,

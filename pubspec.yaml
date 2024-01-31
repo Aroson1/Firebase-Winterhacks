@@ -40,6 +40,7 @@ dependencies:
   form_validator: ^2.1.1
   glassmorphism_ui: ^0.3.0
   firebase_auth: ^4.16.0
+  google_sign_in: ^6.2.1
 
 dev_dependencies:
   flutter_test:

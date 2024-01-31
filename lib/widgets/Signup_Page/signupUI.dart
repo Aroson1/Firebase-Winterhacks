@@ -3,7 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:form_validator/form_validator.dart';
 
 import '../../core/utils/image_constant.dart';
-import '../firebase_auth.dart';
+import '../../core/firebase_auth.dart';
 
 class SignupUI extends StatefulWidget {
   const SignupUI({super.key});
@@ -17,11 +17,11 @@ class _SignupUIState extends State<SignupUI> {
   final _passwordController = TextEditingController();
   final _usernameController = TextEditingController();
   final _emailController = TextEditingController();
+  String _headingText = 'Join the Community!';
   String errorMessage = 'Error';
 
   void _onSignupButtonPressed() {
     if (_validate()) {
-      print("SIGN_IN_BUTTON");
       FirebaseAuthenticator()
           .signUp(context, _emailController, _passwordController);
     }
@@ -47,10 +47,10 @@ class _SignupUIState extends State<SignupUI> {
           ),
           child: Column(
             children: [
-              const Text(
-                'Join the Community!',
+              Text(
+                _headingText,
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 30,
                 ),
               ),
@@ -224,7 +224,8 @@ class _SignupUIState extends State<SignupUI> {
                     children: [
                       // Google Login
                       InkWell(
-                        onTap: () {},
+                        onTap: () =>
+                            FirebaseAuthenticator().googleAuth(context),
                         child: SizedBox(
                           width: 58.10,
                           height: 44,
@@ -292,7 +293,11 @@ class _SignupUIState extends State<SignupUI> {
                       ),
                       // Facebook Login
                       InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          setState(() {
+                            _headingText = "Facebook? Really? ";
+                          });
+                        },
                         child: SizedBox(
                           width: 58.10,
                           height: 44,

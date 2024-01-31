@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "30877639638-kejcgkn98trmth7bdvg254jdnpqqhpsp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_winterhacks",
+            "certificate_hash": "ae6394e8cc468db4ac13a7a71dfed46e902f3652"
+          }
+        },
+        {
           "client_id": "30877639638-v09n29b13c4uipbk6i843l2co7f14o8s.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "30877639638-v09n29b13c4uipbk6i843l2co7f14o8s.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "30877639638-du3pkufau7td7fk5lkk15164jd5morv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseWinterhacks.RunnerTests"
+              }
             }
           ]
         }
@@ -43,6 +58,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "30877639638-udsurp5jkvkv557vo0po2ssv9mjjja9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login_page_winterhacks",
+            "certificate_hash": "ae6394e8cc468db4ac13a7a71dfed46e902f3652"
+          }
+        },
+        {
           "client_id": "30877639638-v09n29b13c4uipbk6i843l2co7f14o8s.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -58,6 +81,13 @@
             {
               "client_id": "30877639638-v09n29b13c4uipbk6i843l2co7f14o8s.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "30877639638-du3pkufau7td7fk5lkk15164jd5morv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseWinterhacks.RunnerTests"
+              }
             }
           ]
         }
@@ -95,6 +125,13 @@
             {
               "client_id": "30877639638-v09n29b13c4uipbk6i843l2co7f14o8s.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "30877639638-du3pkufau7td7fk5lkk15164jd5morv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseWinterhacks.RunnerTests"
+              }
             }
           ]
         }
