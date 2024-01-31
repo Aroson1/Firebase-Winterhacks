@@ -13,7 +13,7 @@ Firebase part of the code can be found at:
 ## Table of Contents
 - [System Requirements](#system-requirements)
 - [Application Structure](#application-structure)
-- [Application Structure](#application-structure)
+- [Release APK](#release-apk)
 
 ## System Requirements
 
@@ -39,5 +39,9 @@ After a successful build, the application should look like this:
 
 ## Release APK
 A production reddy version of the APK is avilable for installing and using on Android, at:
-
+```
+{root}
+├── APK                                
+    ├── app-release.apk
+```
 
